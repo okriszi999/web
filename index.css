@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(63, 63, 63);
+}
+
+nav{
+    z-index: 1;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(wood.jpg);
+    box-shadow: 0px 10px 55px black;
+    padding: 0px;
+}
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5em;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: black 0px 2px 2px;
+    color: white;
+    transition: color ease 250ms, text-shadow ease 500ms;
+}
+
+a:hover
+{
+    color: rgb(224, 224, 224);
+    text-shadow: black 0px 3px 3px;
+}
+
+nav img
+{
+    width: 100px;
+    margin: 1em;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+}
+
+#about{
+    font-family: 'Open Sans', sans-serif;
+}
